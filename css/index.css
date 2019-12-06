@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+/*-------------- Header Begin --------------*/
+header{
+    width: 800px;
+    position: fixed;
+    display: flex;
+    top: 1%;
+}
+
+header nav{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+header nav a{
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.lambda-logo{
+    width: 15%;
+}
+/*-------------- Header End --------------*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +127,41 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/*-------------- index.html Boxes Begin --------------*/
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +171,84 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-------------- index.html Boxes End --------------*/
 
 .bottom-content {
     display: flex;
@@ -144,3 +282,154 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*-------------- about.html Begin --------------*/
+hr{
+    border-top: 1px dotted;
+}
+
+.about-top{
+    padding: 2%;
+}
+
+.about-section-middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-section-middle div{
+    width: 50%;
+    padding: 2%;
+}
+
+.about-section-middle div img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.about-section-middle div button{
+    margin: 5% 0 2% 0;
+    background: white;
+	width: 32%;
+	font: inherit;
+	font-size: 15px;
+	padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-section-middle div button:hover {
+	background: black;
+  	color: white;
+ 	animation-duration: 1s;
+ 	animation-name: colorChange;
+}
+/*-------------- about.html End --------------*/
+
+
+/*-------------- product.html Begin --------------*/
+.product-main-section{
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-main-section div{
+    margin-bottom: 3%;
+}
+
+.product-main-section .text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	width: 45%;
+    background-color:#f0f0f0;
+	border: 2px solid black;
+	font-size: 20px;
+	padding:2%;
+}
+/*-------------- product.html End --------------*/
+
+
+/*-------------- contact.html End --------------*/
+
+.contact-section-middle .container{
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------- contact.html End --------------*/
+
+
+/*-------------- About.html Media Screen Begin --------------*/
+@media screen and (max-width: 600px) {
+	.container{
+		width: 500px;
+	}
+
+	header {
+		width: 500px;
+		display: flex;
+		position: fixed;
+		top: 0;
+	}
+	
+	header .nav {
+		display: flex;
+		justify-content:space-between;	
+	}
+	
+	header .nav a {
+		display: flex;
+		font-family: "Pacifico";
+		color: white;
+		font-size: 90%;
+	}
+	
+	.jumbo{
+        margin-top: 20px;
+		width: 100%;
+	}
+
+	.about-section-middle div{
+	   border: 1px solid black;
+	   width: 100%;
+	   padding: 2%;
+	   background-color:#f0f0f0;
+	   margin-bottom: 4%;
+	}
+	
+	.about-section-middle button {
+		background: white;
+		width: 100%;
+		font: inherit;
+		font-size: 15px;
+		padding: 2%;
+		border: 1px solid black;
+	}
+	
+	.services-section-middle button:hover {
+		background: black;
+		  color: white;
+		 animation-duration: 1s;
+		 animation-name: colorChange;
+	}
+	
+	@keyframes colorChange {
+		0% {
+		  background-color: white;
+		}
+		50% {
+		  background-color: light black;
+		}
+		100% {
+		  background-color: black;
+		}
+	  }
+    }
+
+    /*-------------- About.html Media Screen End --------------*/
