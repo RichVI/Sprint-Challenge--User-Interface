@@ -357,6 +357,11 @@ hr{
 
 /*-------------- contact.html End --------------*/
 
+.contact-section-middle .container{
+    display: flex;
+    justify-content: center;
+}
+
 /*-------------- contact.html End --------------*/
 
 
