@@ -284,7 +284,7 @@ footer nav a {
 }
 
 
-/*-------------- About.html Begin --------------*/
+/*-------------- about.html Begin --------------*/
 hr{
     border-top: 1px dotted;
 }
@@ -326,4 +326,105 @@ hr{
  	animation-duration: 1s;
  	animation-name: colorChange;
 }
-/*-------------- About.html End --------------*/
+/*-------------- about.html End --------------*/
+
+
+/*-------------- product.html Begin --------------*/
+.product-main-section{
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-main-section div{
+    margin-bottom: 3%;
+}
+
+.product-main-section .text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	width: 45%;
+    background-color:#f0f0f0;
+	border: 2px solid black;
+	font-size: 20px;
+	padding:2%;
+}
+/*-------------- product.html End --------------*/
+
+
+/*-------------- contact.html End --------------*/
+
+/*-------------- contact.html End --------------*/
+
+
+/*-------------- About.html Media Screen Begin --------------*/
+@media screen and (max-width: 600px) {
+	.container{
+		width: 500px;
+	}
+
+	header {
+		width: 500px;
+		display: flex;
+		position: fixed;
+		top: 0;
+	}
+	
+	header .nav {
+		display: flex;
+		justify-content:space-between;	
+	}
+	
+	header .nav a {
+		display: flex;
+		font-family: "Pacifico";
+		color: white;
+		font-size: 90%;
+	}
+	
+	.jumbo{
+        margin-top: 20px;
+		width: 100%;
+	}
+
+	.about-section-middle div{
+	   border: 1px solid black;
+	   width: 100%;
+	   padding: 2%;
+	   background-color:#f0f0f0;
+	   margin-bottom: 4%;
+	}
+	
+	.about-section-middle button {
+		background: white;
+		width: 100%;
+		font: inherit;
+		font-size: 15px;
+		padding: 2%;
+		border: 1px solid black;
+	}
+	
+	.services-section-middle button:hover {
+		background: black;
+		  color: white;
+		 animation-duration: 1s;
+		 animation-name: colorChange;
+	}
+	
+	@keyframes colorChange {
+		0% {
+		  background-color: white;
+		}
+		50% {
+		  background-color: light black;
+		}
+		100% {
+		  background-color: black;
+		}
+	  }
+    }
+
+    /*-------------- About.html Media Screen End --------------*/
